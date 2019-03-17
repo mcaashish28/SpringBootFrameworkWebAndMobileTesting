@@ -1,64 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="50514fb2-f7da-4866-a1bb-2e8e705919c8" name="Default Changelist" comment="Springbootframework for Web and Mobile Automation Testing">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Configurations/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Drivers/MicrosoftWebDriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Drivers/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Drivers/geckodriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springbootproject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestData/ExcelData/TestData - Copy.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestData/ExcelData/TestData.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springproject/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springproject/controllers/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springproject/excelOperations/ExcelGenericFunctions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springproject/excelOperations/ReadAndWriteExcel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/Manulife.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/javascript.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/test" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Utilities/ReadConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/webApplicationTesting/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/webApplicationTesting/webTestCases/GoogleLaunchURLTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/webApplicationTesting/webTestCases/ManulifeLaunchURLTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/webApplicationTesting/webTestCases/TestDriverClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/webApplicationTesting/webTestCases/WebTestBaseClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Command line suite/Command line test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Command line suite/Command line test.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/bullet_point.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/collapseall.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/failed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/jquery-1.7.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-webApplicationTesting.webTestCases.GoogleLaunchURLTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-webApplicationTesting.webTestCases.ManulifeLaunchURLTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/navigator-bullet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/Command line suite/Command line test.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/Command line suite/classes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/Command line suite/groups.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/Command line suite/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/Command line suite/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/Command line suite/methods-alphabetical.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/Command line suite/methods-not-run.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/Command line suite/methods.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/Command line suite/reporter-output.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/Command line suite/testng.xml.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/Command line suite/toc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/passed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/skipped.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/testng-reports.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/testng-reports.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/testng.css" afterDir="false" />
+    <list default="true" id="50514fb2-f7da-4866-a1bb-2e8e705919c8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springproject/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springproject/Application.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -85,8 +29,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/springproject/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+            <state relative-caret-position="136">
+              <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -120,7 +64,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/Application.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springproject/Application.java" />
         <option value="$PROJECT_DIR$/src/main/resources/static/css/styles.css" />
         <option value="$PROJECT_DIR$/src/main/resources/static/js/javascript.js" />
         <option value="$PROJECT_DIR$/src/main/java/com/springproject/controllers/Controller.java" />
@@ -139,6 +82,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/springproject/excelOperations/TestClass.java" />
         <option value="$PROJECT_DIR$/src/test/java/webApplicationTesting/webTestCases/TestDriverClass.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springproject/excelOperations/ExcelGenericFunctions.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springproject/Application.java" />
       </list>
     </option>
   </component>
@@ -178,7 +122,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552806382448" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552806929666" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../SeleniumWebFrameworkStructure/pom.xml" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
@@ -307,6 +251,14 @@
       <option name="presentableId" value="Default" />
       <updated>1552704231973</updated>
     </task>
+    <task id="LOCAL-00001" summary="Springbootframework for Web and Mobile Automation Testing">
+      <created>1552806347331</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1552806347331</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -337,8 +289,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -355,7 +308,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.32843137" />
+      <window_info anchor="bottom" id="Messages" order="10" visible="true" weight="0.32843137" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -548,8 +501,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/springproject/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        <state relative-caret-position="136">
+          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

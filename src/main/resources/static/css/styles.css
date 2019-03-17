@@ -1,0 +1,159 @@
+#manulife-logo {
+    width: 150px;
+}
+.visible-lg {
+    display: block!important;
+}
+#eq-nav-lg-caption {
+    text-transform: uppercase;
+    font-size: 10px;
+    line-height: 0.0;
+    letter-spacing: .06em;
+    text-align: left;
+    font-family: "Proxima Nova","Helvetica Neue",Helvetica,Arial,sans-serif,calibri;
+    color: #A1A1A4;
+    margin: 0 0 0 85px;
+    width: 190px;
+    position: absolute;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li {
+    float: left;
+    font-family: "Proxima Nova","Helvetica Neue",Helvetica,Arial,sans-serif,calibri;
+}
+p,h1,h3,h4,table,label {
+    font-family: "Proxima Nova","Helvetica Neue",Helvetica,Arial,sans-serif,calibri;
+}
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #FF7373;
+}
+li a.active {
+    background-color: red;
+    color: white;
+}
+li.dropdown {
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #FFFFFF;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(255,115,115,0.5);
+}
+.dropdown-content a {
+    color: black;
+    padding: 5px 8px;
+    text-decoration: none;
+    display: block;
+    font-family: "Proxima Nova","Helvetica Neue",Helvetica,Arial,sans-serif,calibri;
+    text-align: left;
+    font-size: 13px;
+}
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+table, th, td {
+    border: 0px solid black;
+    border-collapse: collapse;
+}
+.imgthumbnail {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    height: 100px;
+}
+.imgthumbnail:hover {
+    box-shadow: 0 0 2px 1px rgba(255, 115, 115, 0.5);
+}
+table {
+    font-size: 13px;
+}
+.bgcolor {
+    background-color: #0099ff;
+}
+.nobordertable {
+    border: 0px;
+}
+.noborder {
+    border-width: 0;
+    border: 1px solid white;
+}
+.textbox {
+    border: none;
+    border-color: transparent;
+}
+.error {
+	font: 12px calibri;
+	color: red;
+	font-weight: bold;
+}
+.valid {
+	font: 12px calibri;
+	color: green;
+	font-weight: bold;
+}
+.warn {
+    font: 12px calibri;
+    color: orange;
+    font-weight: bold;
+}
+.bgcolor {
+	background-color: #0099ff;
+}
+.trbgcolor {
+	background-color: #f2fa6e;
+}
+.errbgcolor {
+    background-color: #ff001a;
+    color: #ffffff;
+}
+.validbgcolor {
+    background-color: #ffffff;
+    color: black;
+}
+body {
+    margin: 2;
+}
+.indexpagegrid-container {
+    display: grid;
+    grid-gap: 5px 5px;
+    padding: 5px;
+    grid-template-columns: auto auto;
+    align-content: center;
+}
+.grid-item {
+}
+.grid-container {
+    display:grid;
+    grid-gap: 5px 5px;
+    padding: 5px;
+    grid-template-columns: auto auto auto auto auto;
+    align-content: center;
+ }
+.outline{
+	border-radius: 15px 50px 50px 15px;
+	border: 2px solid #FF7373;
+	padding: 20px;
+}
+.fontstyle {
+	color:#0099ff;
+} 
+

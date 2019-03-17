@@ -1,18 +1,18 @@
 package com.springproject.excelOperations;
 
+import org.apache.logging.log4j.core.tools.picocli.CommandLine;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.springframework.stereotype.Component;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 
+@Component
 public class ReadAndWriteExcel {
 
-    // Excel file path and sheet name
-    public static final String ExcelSheetPath = "./src/TestData/ExcelData/TestData.xlsx";
-    public static final String ExcelSheetName = "TC_Details";
 
     // Apache poi object declaration
     XSSFWorkbook Excelworkbook;
@@ -35,20 +35,22 @@ public class ReadAndWriteExcel {
     private int TargetColIndex;
 
     // main fucntion
-
+/*
     public static void main(String[] args){
         ReadAndWriteExcel rw = new ReadAndWriteExcel();
         String ClientSelectedScriptID = "testcase2";
         rw.ReadAndWriteExcel(ExcelSheetPath, ExcelSheetName, ClientSelectedScriptID);
     }
+*/
 
-
-    public void ReadAndWriteExcel(String DataFilePath, String DataSheetName, String ClientSelectedScriptID){
-
+    public void ReadAndWriteExcel(String ClientSelectedScriptID){
+        // Excel file path and sheet name
+       String ExcelSheetPath = "./src/TestData/ExcelData/TestData.xlsx";
+       String ExcelSheetName = "TC_Details";
         try{
-            fis = new FileInputStream(DataFilePath);
+            fis = new FileInputStream(ExcelSheetPath);
             Excelworkbook = new XSSFWorkbook(fis);
-            ExcelSheet = Excelworkbook.getSheet(DataSheetName);
+            ExcelSheet = Excelworkbook.getSheet(ExcelSheetName);
             if(ExcelSheet !=null){
                 int RowCount = ExcelSheet.getPhysicalNumberOfRows();
                 rowObj = ExcelSheet.getRow(0);
@@ -70,7 +72,7 @@ public class ReadAndWriteExcel {
                         System.out.println("Test Case Name is : " + TestCaseName);
 
                         // Write into Excel Sheet
-                        if(TestCaseID.equals(ClientSelectedScriptID)){
+                        if(TestCaseName.equals(ClientSelectedScriptID)){
                             TargetColIndex = ExcelGenericFunctions.getCellIndexFromColName(rowObj, "Execute_Flag");
                             ExcelGenericFunctions.writeToExcelSheet(ExcelSheet, rownum, TargetColIndex, "Yes");
 
@@ -88,7 +90,7 @@ public class ReadAndWriteExcel {
 
 
                         if(writeToExcelFlag==true){
-                            fout = new FileOutputStream(DataFilePath);
+                            fout = new FileOutputStream(ExcelSheetPath);
                             Excelworkbook.write(fout);
                             fout.close();
                             writeToExcelFlag = false;

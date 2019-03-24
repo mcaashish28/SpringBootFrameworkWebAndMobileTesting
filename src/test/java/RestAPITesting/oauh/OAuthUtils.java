@@ -234,7 +234,9 @@ public class OAuthUtils {
     public static Map handleJsonResponse(HttpResponse response) throws IOException {
 
         Map<String, String> oauthLoginResponse = null;
+
         String contentType = response.getEntity().getContentType().getValue();
+
         try{
             //oauthLoginResponse = (Map<String,String>) new JSONParser().parse(EntityUtils.toString(response.getEntity()));
 

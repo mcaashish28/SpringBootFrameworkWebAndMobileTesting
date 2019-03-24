@@ -41,7 +41,7 @@ public class TestDriverClass {
     public void ReadExcelDriverAndRunScript(){
 
         try{
-            String ExcelSheetPath = "./src/TestData/ExcelData/TestData.xlsx";
+            String ExcelSheetPath = "C:\\GitHubProjects\\springbootproject\\src\\TestData\\ExcelData\\TestData.xlsx";
             String ExcelSheetName = "TC_Details";
             fis = new FileInputStream(ExcelSheetPath);
             Excelworkbook = new XSSFWorkbook(fis);

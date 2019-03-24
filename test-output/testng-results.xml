@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="18446" started-at="2019-03-17T06:25:30Z" finished-at="2019-03-17T06:25:49Z">
+  <suite name="Command line suite" duration-ms="16322" started-at="2019-03-24T05:43:37Z" finished-at="2019-03-24T05:43:53Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="18446" started-at="2019-03-17T06:25:30Z" finished-at="2019-03-17T06:25:49Z">
-      <class name="webApplicationTesting.webTestCases.ManulifeLaunchURLTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:webApplicationTesting.webTestCases.ManulifeLaunchURLTest@1fbdac4]" name="setup" is-config="true" duration-ms="6083" started-at="2019-03-17T06:25:24Z" finished-at="2019-03-17T06:25:30Z">
+    <test name="Command line test" duration-ms="16322" started-at="2019-03-24T05:43:37Z" finished-at="2019-03-24T05:43:53Z">
+      <class name="webApplicationTesting.webTestCases.GoogleLaunchURLTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:webApplicationTesting.webTestCases.GoogleLaunchURLTest@a48628]" name="setup" is-config="true" duration-ms="19571" started-at="2019-03-24T05:43:18Z" finished-at="2019-03-24T05:43:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="LaunchManulifeURL()[pri:0, instance:webApplicationTesting.webTestCases.ManulifeLaunchURLTest@1fbdac4]" name="LaunchManulifeURL" duration-ms="18316" started-at="2019-03-17T06:25:30Z" finished-at="2019-03-17T06:25:49Z">
+        <test-method status="PASS" signature="LaunchGoogleURL()[pri:0, instance:webApplicationTesting.webTestCases.GoogleLaunchURLTest@a48628]" name="LaunchGoogleURL" duration-ms="16316" started-at="2019-03-24T05:43:37Z" finished-at="2019-03-24T05:43:53Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LaunchManulifeURL -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:webApplicationTesting.webTestCases.ManulifeLaunchURLTest@1fbdac4]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-03-17T06:25:50Z" finished-at="2019-03-17T06:25:50Z">
+        </test-method> <!-- LaunchGoogleURL -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:webApplicationTesting.webTestCases.GoogleLaunchURLTest@a48628]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-03-24T05:43:53Z" finished-at="2019-03-24T05:43:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- webApplicationTesting.webTestCases.ManulifeLaunchURLTest -->
+      </class> <!-- webApplicationTesting.webTestCases.GoogleLaunchURLTest -->
     </test> <!-- Command line test -->
   </suite> <!-- Command line suite -->
 </testng-results>

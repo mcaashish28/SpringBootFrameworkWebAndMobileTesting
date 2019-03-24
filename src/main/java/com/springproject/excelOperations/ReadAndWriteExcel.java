@@ -45,7 +45,7 @@ public class ReadAndWriteExcel {
 
     public void ReadAndWriteExcel(String ClientSelectedScriptID){
         // Excel file path and sheet name
-       String ExcelSheetPath = "./src/TestData/ExcelData/TestData.xlsx";
+       String ExcelSheetPath = "C:\\GitHubProjects\\springbootproject\\src\\TestData\\ExcelData\\TestData.xlsx";
        String ExcelSheetName = "TC_Details";
         try{
             fis = new FileInputStream(ExcelSheetPath);

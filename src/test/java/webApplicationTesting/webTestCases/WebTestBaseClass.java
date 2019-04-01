@@ -1,10 +1,14 @@
 package webApplicationTesting.webTestCases;
 
+import Utilities.HtmlReport;
 import Utilities.ReadConfig;
 
 //import org.apache.log4j.Logger;
 //import org.apache.log4j.PropertyConfigurator;
 
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -14,6 +18,8 @@ import org.slf4j.LoggerFactory;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 
+import java.io.File;
+import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 public class WebTestBaseClass {
@@ -39,10 +45,14 @@ public class WebTestBaseClass {
     //@Parameters("getbrowser")      // take browser name from testng.xml file
     @BeforeSuite
     // public void setup(String browser)
-    public void setup(){
+    public void setup() throws IOException, InterruptedException {
 
-
-        //  PropertyConfigurator.configure("log4j.properties");
+        try {
+            HtmlReport.startTestCaseReport("WebTestBaseClass","Web Test Base Class Description");
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        //  PropertyConfigurator.confidgure("log4j.properties");
 
       //  PropertyConfigurator.configure("./src/test/resources/log4j.properties");
        //   log.info("This is first logger Message.");
@@ -50,6 +60,8 @@ public class WebTestBaseClass {
         if(browser.equals("chrome")){
             System.setProperty("webdriver.chrome.driver",readConfig.getChromeDriverpath());
             driver = new ChromeDriver();
+            HtmlReport.reportHeaderStep("Google Srcipt --- start");
+            HtmlReport.reportStep("Launch Browser", "Google Browser will be Launched", "Google Browser is Launched.");
            log.info("Chrome Browser is Launched.");
           //  log.info("Initializing Chrome driver...");
         }else if(browser.equals("ie")){
@@ -68,8 +80,20 @@ public class WebTestBaseClass {
        // System.out.println("Launch test environment URL: " + GoogleURL);
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.manage().window().maximize();
+        WebTestBaseClass wb = new WebTestBaseClass();
+
+        WebTestBaseClass.getScreenShot("Test");
     }
 
+
+    public static void getScreenShot(String result) throws IOException, InterruptedException {
+        File src = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+        String destinationPath = "C:\\GitHubProjects\\springbootproject\\Screenshots\\ScreenShot_"+result+"_"+ System.currentTimeMillis()+".png";
+        FileUtils.copyFile(src, new File(destinationPath));
+        Thread.sleep(2000);
+        System.out.println("Screen shot taken..");
+        //FileUtils.copyFile(src, new File("C://GitHubProjects//springbootproject//Screenshots//ScreenShot_"+result+"_"+ System.currentTimeMillis()+".png"));
+    }
 
     @AfterSuite
     public void tearDown(){

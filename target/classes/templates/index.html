@@ -1,40 +1,178 @@
 <html xmlns:th="http://www.thymeleaf.org">
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>home</title>
-    <link rel="stylesheet" href="css/styles.css"/>
+    <title>Welcome to Manulife Automation Portal</title>
+    <link rel="shortcut icon" href="{%  static 'manulife.ico' %}">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/custom.css">
     <script src="js/javascript.js"></script>
-
-    <!-- BootStarp css properties
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    -->
-
 </head>
 <body>
-    <form method="post">
-        <img src="img/Manulife.png" id="manulife-logo">
+<form method="post">
+<nav class="navbar navbar-expand-sm bg-light justify-content-center">
+    <div class="spinner-grow text-muted"></div>
+    <div class="spinner-grow text-primary"></div>
+    <div class="spinner-grow text-success"></div>
+    <div class="spinner-grow text-info"></div>
+    <!--<img class="navbar-brand" src="img/manulife_logo.png" style="width:100px;">-->
+    <font color="Green"><h2>Manulife - Hybrid Automation Test Portal</h2></font>
+    <div class="spinner-grow text-warning"></div>
+    <div class="spinner-grow text-danger"></div>
+    <div class="spinner-grow text-secondary"></div>
+    <div class="spinner-grow text-dark"></div>
+    <div class="spinner-grow text-light"></div>
+</nav>
+<br>
 
-        <ul>
-            <li><a href="/" class="active">Script</a></li>
+<div class="container">
+    <ul class="nav nav-tabs nav-pills"><!-- nav-justified -->
+        <li class="nav-item">
+            <a class="nav-link active " data-toggle="tab" href="#AboutPortal">About Portal</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#TestSuite">Test Suite</a>
+        </li>
 
-        </ul>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Mobile App Testing</a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" data-toggle="tab" href="#MobileSanityScripts">Sanity Scripts</a>
+                <a class="dropdown-item" data-toggle="tab" href="#MobileRegressionScripts">Regression Scripts</a>
+            </div>
+        </li>
 
-        <table>
-            <tr>
-                <td>
-                    <input type="radio" name="testcase1" id="testcase1" value="firsttestcase">Launch Google URL<br>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Web App Testing</a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" data-toggle="tab" href="#WebSanityScripts">Sanity Scripts</a>
+                <a class="dropdown-item" data-toggle="tab" href="#WebRegressionScripts">Regression Scripts</a>
+            </div>
+        </li>
+
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Automation KPI Charts</a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" data-toggle="tab" href="#MobileChart">Mobile Test Statistics</a>
+                <a class="dropdown-item" data-toggle="tab" href="#WebChart">Web Test statistics</a>
+            </div>
+        </li>
+    </ul>
+    <!-- Tab panes -->
+    <div class="tab-content">
+        <div class="tab-pane container active" id="AboutPortal">
+            <br>
+            <b><p class="text-primary">About Manulife - Hybrid Automation Test Portal!!!</p></b>
+            Manulife - Hybrid Automation Test Portal is a Automation Framework tool designed to perform Sanity and Functional Testing for iOS Mobile and Web application.
+            User can run Pre-designed Automated Test scripts with single click from Mobile or Desktop Browser and Script will be executed on Pre-configured Test Lab and Results will be sent to User in Email.
+            This Portal is useful for QA or BA Team to Test E2E Functional Workflow of Application.<br>
+            <br>
+            <b><p class="text-primary">Benefits of Automation Portal</p></b>
+            <i>User Friendly</i> - Automation Portal Portal offers the user friendly single clicks to run Automated Test Scripts without any manual intervention.
+            <br><br>&emsp;
+            <i>Auto-Email Results</i> – Portal helps the QA or BA Team in getting reports generated and notified in an Auto-email with Test Execution Results.
+            <br><br>&emsp;
+            <i>A la carte</i> - QA or BA Team can choose the required E2E Functional Test to be executed.
+            <br><br>&emsp;
+            <i>Test Data</i> – QA or BA Team does not need to enter any test data for Sanity Scripts.
+            <br><br>&emsp;
+            <i>Multiple Environment Testing</i> - User can execute Test cases in different environments. Example: SIT and UAT.
+            <br><br>&emsp;
+            <i>Cross Platform Testing</i> - User can execute Test cases in different platform. Example: iOS Mobile App Or Web Application.
+            <br><br>
+            <p class="bg-success text-white">Please click <a href="/TestSuite/" target="_self"> here </a> to proceed in selecting your test scripts for execution... Enjoy Testing!!!!</p>
+            <br>
+            <br>
+            <br>
+            <br>
+        </div>
 
 
+        <div class="tab-pane container fade" id="TestSuite">
 
-                </td>
-            </tr>
-        </table>
+            <div class="container">
 
-        <input type="submit" id="submit" name="submit"/>
+                    <h3>Test Suite</h3>
+                    <p></p>
+                    <table class="table table-bordered table-hover table-striped table-sm" cellpadding="5">
+                        <thead class="thead-dark">
+                        <tr>
+                            <th>Sr.No.</th>
+                            <th>Test Script Name</th>
+                            <th>Host Name</th>
+                            <th>Status</th>
+                            <th>Add/Delete</th>
+                        </tr>
+                        </thead>
+                        <tr>
+                            <td>1</td>
+                            <td>
+                                <div class="form-group">
+                                    <select class="form-control" id="testcase1" name="testcase1"  style="background-color:white;">
+                                        <option value="GoogleLaunchURLTest">Launch Google URL</option>
+                                        <option value="TS2">Test Script 2</option>
+                                        <option value="TS3">Test Script 3</option>
+                                        <option value="TS4">Test Script 4</option>
+                                    </select>
+                                </div>
 
-    </form>
+                            </td>
+                            <td>Host Name1</td>
+                            <td>Yet To Run</td>
 
+                            <td>
+                                <button type="button" class="btn btn-success btn-sm">Add</button>
+                                <button type="button" class="btn btn-danger btn-sm">Delete</button>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>2</td>
+                            <td>
+                                <div class="form-group">
+                                    <select class="form-control" id="testcase2" name="testcase2" style="background-color:white;">
+                                        <option value="ManulifeLaunchURLTest">Launch Manulife URL</option>
+                                        <option value="TS2">Test Script 2</option>
+                                        <option value="TS3">Test Script 3</option>
+                                        <option value="TS4">Test Script 4</option>
+                                    </select>
+                                </div>
+                            </td>
+                            <td>Host Name1</td>
+                            <td>Yet To Run</td>
+                            <td>
+                                <button type="button" class="btn btn-success btn-sm">Add</button>
+                                <button type="button" class="btn btn-danger btn-sm">Delete</button>
+                            </td>
+                        </tr>
+
+
+                    </table>
+
+
+                </div>
+
+                <div class="container">
+                    <input type="submit" id="submit" name="submit" class="btn btn-primary">Submit</input>
+                </div>
+
+            </div>
+
+
+            <div class="tab-pane container fade" id="Link1">Select Report For download</div>
+        </div>
+
+</div>
+
+
+<div class="footer">
+    <p>Copyright <a href="https://www.manulife.com/">Manulife.com</a> 2019</p>
+</div>
+</form>
 </body>
 </html>

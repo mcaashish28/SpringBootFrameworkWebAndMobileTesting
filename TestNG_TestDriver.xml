@@ -2,6 +2,10 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
 <suite name="springbootframework">
+    <listeners>
+        <listener class-name="Utilities.TestNGListener"/>
+    </listeners>
+
     <test name="TestDriver">
         <classes>
             <class name="webApplicationTesting.webTestCases.TestDriverClass"/>

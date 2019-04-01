@@ -25,7 +25,7 @@ public class Controller {
     @RequestMapping(value="/", method= RequestMethod.GET)
     public String homePage(){
         logger.info("Launching Home page....");
-        return "HomePage";
+        return "index";
     }
     @RequestMapping(value="/", method=RequestMethod.POST)
     public String onSubmit(@RequestParam String testcase1, @RequestParam String testcase2) throws IOException {

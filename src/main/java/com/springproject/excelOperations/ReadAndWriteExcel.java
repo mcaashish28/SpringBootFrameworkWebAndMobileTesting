@@ -63,11 +63,7 @@ public class ReadAndWriteExcel {
                     while(excelParseFlag==true){
                         // Read from Excel Sheet
 
-                        TargetColIndex = ExcelGenericFunctions.getCellIndexFromColName(rowObj, "TestCaseID");
-                        TestCaseID = ExcelGenericFunctions.getCellValue(ExcelSheet, rownum, TargetColIndex);
-                        System.out.println("Test Case ID value is : " + TestCaseID);
-
-                        TargetColIndex = ExcelGenericFunctions.getCellIndexFromColName(rowObj, "TestCaseName");
+                        TargetColIndex = ExcelGenericFunctions.getCellIndexFromColName(rowObj, "AutomationScriptName");
                         TestCaseName = ExcelGenericFunctions.getCellValue(ExcelSheet, rownum, TargetColIndex);
                         System.out.println("Test Case Name is : " + TestCaseName);
 

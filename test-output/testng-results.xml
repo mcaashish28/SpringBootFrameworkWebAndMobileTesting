@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="7724" started-at="2019-03-30T11:12:43Z" finished-at="2019-03-30T11:12:50Z">
+  <suite name="Command line suite" duration-ms="2949" started-at="2019-04-01T04:18:12Z" finished-at="2019-04-01T04:18:15Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="7724" started-at="2019-03-30T11:12:43Z" finished-at="2019-03-30T11:12:50Z">
+    <test name="Command line test" duration-ms="2949" started-at="2019-04-01T04:18:12Z" finished-at="2019-04-01T04:18:15Z">
       <class name="webApplicationTesting.webTestCases.GoogleLaunchURLTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:webApplicationTesting.webTestCases.GoogleLaunchURLTest@ebbb30]" name="setup" is-config="true" duration-ms="23049" started-at="2019-03-30T11:12:19Z" finished-at="2019-03-30T11:12:43Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:webApplicationTesting.webTestCases.GoogleLaunchURLTest@1c90a9c]" name="setup" is-config="true" duration-ms="6274" started-at="2019-04-01T04:18:05Z" finished-at="2019-04-01T04:18:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="LaunchGoogleURL()[pri:0, instance:webApplicationTesting.webTestCases.GoogleLaunchURLTest@ebbb30]" name="LaunchGoogleURL" duration-ms="7720" started-at="2019-03-30T11:12:43Z" finished-at="2019-03-30T11:12:50Z">
+        <test-method status="PASS" signature="LaunchGoogleURL()[pri:0, instance:webApplicationTesting.webTestCases.GoogleLaunchURLTest@1c90a9c]" name="LaunchGoogleURL" duration-ms="2944" started-at="2019-04-01T04:18:12Z" finished-at="2019-04-01T04:18:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchGoogleURL -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:webApplicationTesting.webTestCases.GoogleLaunchURLTest@ebbb30]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-03-30T11:12:51Z" finished-at="2019-03-30T11:12:51Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:webApplicationTesting.webTestCases.GoogleLaunchURLTest@1c90a9c]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-04-01T04:18:15Z" finished-at="2019-04-01T04:18:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

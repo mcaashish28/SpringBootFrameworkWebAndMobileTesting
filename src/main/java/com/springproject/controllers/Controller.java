@@ -1,6 +1,8 @@
 package com.springproject.controllers;
 
 import com.springproject.excelOperations.ReadAndWriteExcel;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -12,6 +14,9 @@ import java.io.IOException;
 
 @org.springframework.stereotype.Controller
 public class Controller {
+
+    public static final Logger logger = LoggerFactory.getLogger(Controller.class);
+
     @Autowired
     ReadAndWriteExcel rwExcel;
 
@@ -19,14 +24,19 @@ public class Controller {
 
     @RequestMapping(value="/", method= RequestMethod.GET)
     public String homePage(){
+        logger.info("Launching Home page....");
         return "HomePage";
     }
-
     @RequestMapping(value="/", method=RequestMethod.POST)
-    public String onSubmit(@RequestParam String testcase1) throws IOException {
+    public String onSubmit(@RequestParam String testcase1, @RequestParam String testcase2) throws IOException {
+        logger.info("User selected value is : " + testcase1);
+        logger.info("User selected value is : " + testcase2);
+
         System.out.println("User selected value is : " + testcase1);
+        System.out.println("User selected value is : " + testcase2);
         // write User request into Excel
         rwExcel.ReadAndWriteExcel(testcase1);
+        rwExcel.ReadAndWriteExcel(testcase2);
 
         // Run maven project from command line
         File dir = new File("C:\\GitHubProjects\\springbootproject");

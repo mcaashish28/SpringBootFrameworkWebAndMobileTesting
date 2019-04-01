@@ -10,6 +10,9 @@ public class GoogleLaunchURLTest extends WebTestBaseClass {
     public void LaunchGoogleURL() throws Exception {
         driver.get(GoogleURL);
       //  log.info("Google URL is Launched");
+
+
+
         System.out.println("Launch test environment URL: " + GoogleURL);
         System.out.println("Title of URL is : " + driver.getTitle());
     }

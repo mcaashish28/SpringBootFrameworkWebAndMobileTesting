@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+    <appender name="consoleAppender" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <Pattern>%d{HH:mm:ss} %-5level %logger{36} - %msg %n
+            </Pattern>
+        </encoder>
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>TRACE</level>
+        </filter>
+    </appender>
+
+
+    <appender name="rollingFileAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <FileNamePattern>C:\GitHubProjects\springbootproject\log\AutomationPortalLog.%d{yyyy-MM-dd}.log</FileNamePattern>
+            <MaxHistory>10</MaxHistory>
+            <totalSizeCap>100MB</totalSizeCap>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%d %-5level %logger{0}: %msg%n</pattern>
+            <!-- <pattern>%d %-5level [%thread] %logger{0}: %msg%n</pattern>-->
+        </encoder>
+    </appender>
+
+    <appender name="traceFileAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <FileNamePattern>C:\GitHubProjects\springbootproject\log\archive\ExecutedTestSuiteDetails1.%d{yyyy-MM-dd}.log</FileNamePattern>
+            <MaxHistory>10</MaxHistory>
+            <totalSizeCap>100MB</totalSizeCap>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%d %-5level %logger{0}: %msg%n</pattern>
+            <!-- <pattern>%d %-5level [%thread] %logger{0}: %msg%n</pattern>-->
+        </encoder>
+    </appender>
+
+
+
+    <root level="error">
+        <appender-ref ref="rollingFileAppender" />
+        <appender-ref ref="consoleAppender" />
+    </root>
+
+    <root level="info">
+        <appender-ref ref="rollingFileAppender" />
+        <appender-ref ref="consoleAppender" />
+    </root>
+
+
+
+</configuration>

@@ -79,14 +79,16 @@ public class ReadAndWriteExcel {
                             TargetColIndex = ExcelGenericFunctions.getCellIndexFromColName(rowObj, "Remarks");
                             ExcelGenericFunctions.writeToExcelSheet(ExcelSheet, rownum, TargetColIndex, "Execute this Script.");
                             writeToExcelFlag = true;
-                        }else{
+                        }
+                        /*
+                        else{
                             TargetColIndex = ExcelGenericFunctions.getCellIndexFromColName(rowObj, "Execute_Flag");
                             ExcelGenericFunctions.writeToExcelSheet(ExcelSheet, rownum, TargetColIndex, "No");
 
                             TargetColIndex = ExcelGenericFunctions.getCellIndexFromColName(rowObj, "Remarks");
                             ExcelGenericFunctions.writeToExcelSheet(ExcelSheet, rownum, TargetColIndex, "Do Not Execute this Script.");
                             writeToExcelFlag = true;
-                        }
+                        }*/
 
 
                         if(writeToExcelFlag==true){

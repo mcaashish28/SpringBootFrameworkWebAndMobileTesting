@@ -1,6 +1,8 @@
 package webApplicationTesting.webTestCases;
 
 import com.springproject.excelOperations.ExcelGenericFunctions;
+//import org.apache.logging.log4j.LogManager;
+//import org.apache.logging.log4j.Logger;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
@@ -14,6 +16,7 @@ import java.io.FileOutputStream;
 public class TestDriverClass {
     // Excel file path and sheet name
 
+//    public static Logger log = LogManager.getLogger(TestDriverClass.class);
 
     // Apache poi object declaration
     XSSFWorkbook Excelworkbook;
@@ -70,9 +73,11 @@ public class TestDriverClass {
                             if(AutomationScriptName.equals("GoogleLaunchURLTest")){
                                 testScript.setTestClasses(new Class[] { GoogleLaunchURLTest.class });
                                 System.out.println("Running GoogleLaunchURLTest Script");
+                              //  log.info("Running GoogleLaunchURLTest Script.");
                             }else if(AutomationScriptName.equals("ManulifeLaunchURLTest")){
                                 testScript.setTestClasses(new Class[] { ManulifeLaunchURLTest.class });
                                 System.out.println("Running ManulifeLaunchURLTest Script");
+                              //  log.info("Running ManulifeLaunchURLTest Script.");
                             }
                             testScript.run();
                         }

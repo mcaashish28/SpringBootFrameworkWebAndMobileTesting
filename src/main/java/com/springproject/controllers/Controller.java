@@ -19,7 +19,7 @@ public class Controller {
 
     @RequestMapping(value="/", method= RequestMethod.GET)
     public String homePage(){
-        return "index";
+        return "HomePage";
     }
 
     @RequestMapping(value="/", method=RequestMethod.POST)
@@ -33,9 +33,6 @@ public class Controller {
         ProcessBuilder pb = new ProcessBuilder("cmd.exe", "/C", "Start","BatchRun.bat");
         pb.directory(dir);
         Process p = pb.start();
-
-
-
         TestNG runTestScript = new TestNG();
         //runTestScript.setTestClasses(new Class[] {TestTestDriverClass.class});
         //runTestScript.run();*/

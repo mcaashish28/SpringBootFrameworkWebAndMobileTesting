@@ -13,6 +13,7 @@
 
 
     <appender name="rollingFileAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
+
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
             <FileNamePattern>C:\GitHubProjects\springbootproject\log\AutomationPortalLog.%d{yyyy-MM-dd}.log</FileNamePattern>
             <MaxHistory>10</MaxHistory>
@@ -25,6 +26,7 @@
     </appender>
 
     <appender name="traceFileAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
+
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
             <FileNamePattern>C:\GitHubProjects\springbootproject\log\archive\ExecutedTestSuiteDetails1.%d{yyyy-MM-dd}.log</FileNamePattern>
             <MaxHistory>10</MaxHistory>

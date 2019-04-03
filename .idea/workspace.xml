@@ -2,25 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50514fb2-f7da-4866-a1bb-2e8e705919c8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index_old.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Utilities/HtmlReport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Utilities/TestNGListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/webApplicationTesting/pageObjectModel/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Configurations/Env_Variables.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Utilities/ReadExternalInputFilesData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/mobileApplicationTesting/mobileTestScripts/LaunchAppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/mobileApplicationTesting/mobileTestScripts/MobileTestBaseClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/mobileApplicationTesting/mobileTestScripts/MobileTestDriverClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/mobileApplicationTesting/mobileUtilityClasses/IPhoneSimulator_SouceLabDesiredCapability.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestNG_TestDriver.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG_TestDriver.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TestData/ExcelData/TestData.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestData/ExcelData/TestData.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springproject/controllers/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springproject/controllers/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springproject/excelOperations/ReadAndWriteExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springproject/excelOperations/ReadAndWriteExcel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/Application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/HomePage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/webApplicationTesting/webTestCases/GoogleLaunchURLTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webApplicationTesting/webTestCases/GoogleLaunchURLTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Utilities/ConnectToJiraUserStory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utilities/ConnectToJiraUserStory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mobileApplicationTesting/mobileUtilityClasses/IPhoneSimulator_DesiredCapability.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mobileApplicationTesting/mobileUtilityClasses/IPhoneSimulator_DesiredCapability.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/webApplicationTesting/webTestCases/WebTestBaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webApplicationTesting/webTestCases/WebTestBaseClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/springproject/controllers/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springproject/controllers/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/springproject/excelOperations/ReadAndWriteExcel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springproject/excelOperations/ReadAndWriteExcel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/springbootproject.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/webApplicationTesting/webTestCases/GoogleLaunchURLTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/webApplicationTesting/webTestCases/GoogleLaunchURLTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/springbootproject.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/webApplicationTesting/webTestCases/WebTestBaseClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/webApplicationTesting/webTestCases/WebTestBaseClass.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/Command line suite/Command line test.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Command line suite/Command line test.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/Command line suite/Command line test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Command line suite/Command line test.xml" afterDir="false" />
@@ -28,10 +27,8 @@
       <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-webApplicationTesting.webTestCases.GoogleLaunchURLTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-webApplicationTesting.webTestCases.GoogleLaunchURLTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-webApplicationTesting.webTestCases.ManulifeLaunchURLTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-webApplicationTesting.webTestCases.ManulifeLaunchURLTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Command line suite/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Command line suite/classes.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/old/Command line suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Command line suite/methods-alphabetical.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/old/Command line suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Command line suite/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Command line suite/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Command line suite/testng.xml.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -48,7 +45,38 @@
     </SUITE>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Configurations/config.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Configurations/Env_Variables.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/ReadExternalInputFilesData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="113">
+              <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -72,6 +100,7 @@
       <find>hrm</find>
       <find>client</find>
       <find>java-client</find>
+      <find>log</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -80,12 +109,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/static/js/javascript.js" />
-        <option value="$PROJECT_DIR$/src/test/java/testCases/TestCase1.java" />
-        <option value="$PROJECT_DIR$/src/test/java/testCases/BaseClass.java" />
-        <option value="$PROJECT_DIR$/src/test/java/webApplicationTesting/webTestCases/webTestBaseClass.java" />
-        <option value="$PROJECT_DIR$/src/test/java/webApplicationTesting/webTestCases/BaseClass.java" />
-        <option value="$PROJECT_DIR$/Configurations/config.properties" />
         <option value="$PROJECT_DIR$/src/test/java/Utilities/ReadConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springproject/excelOperations/TestClass.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springproject/excelOperations/ExcelGenericFunctions.java" />
@@ -104,11 +127,9 @@
         <option value="$PROJECT_DIR$/src/test/java/RestAPITesting/oauh/OAuth2Client.java" />
         <option value="$PROJECT_DIR$/src/test/java/RestAPITesting/oauh/OAuthUtils.java" />
         <option value="$PROJECT_DIR$/src/test/java/Utilities/postGresDBJDBCConnection.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Utilities/ConnectToJiraUserStory.java" />
         <option value="$PROJECT_DIR$/src/test/java/Utilities/ExcelReusableFunctions.java" />
         <option value="$PROJECT_DIR$/src/test/java/mobileApplicationTesting/desiredCapabilityFormats/iOSDesiredCapability/IPhoneSimulator.java" />
         <option value="$PROJECT_DIR$/src/test/java/mobileApplicationTesting/mobileUtilityClasses/StartAndStopAppiumServer.java" />
-        <option value="$PROJECT_DIR$/src/test/java/mobileApplicationTesting/mobileUtilityClasses/IPhoneSimulator_DesiredCapability.java" />
         <option value="$PROJECT_DIR$/src/test/java/mobileApplicationTesting/mobileUtilityClasses/ScrollDownInIOSApp.java" />
         <option value="$PROJECT_DIR$/src/test/java/webApplicationTesting/webTestCases/ManulifeLaunchURLTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/resources/log4j.xml" />
@@ -117,20 +138,28 @@
         <option value="$PROJECT_DIR$/src/test/java/webApplicationTesting/webTestCases/Test.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/tmp_code.html" />
         <option value="$PROJECT_DIR$/src/main/resources/static/css/custom.css" />
-        <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
         <option value="$PROJECT_DIR$/TestNG_TestDriver.xml" />
         <option value="$PROJECT_DIR$/src/test/java/Utilities/TestNGListener.java" />
         <option value="$PROJECT_DIR$/src/test/java/webApplicationTesting/webTestCases/GoogleLaunchURLTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/webApplicationTesting/webTestCases/WebTestBaseClass.java" />
         <option value="$PROJECT_DIR$/src/test/java/Utilities/HtmlReport.java" />
         <option value="$PROJECT_DIR$/src/test/java/webApplicationTesting/pageObjectModel/LoginPage.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/Application.properties" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/HomePage.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/springproject/controllers/Controller.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/springproject/excelOperations/ReadAndWriteExcel.java" />
         <option value="$PROJECT_DIR$/src/test/java/webApplicationTesting/webTestCases/TestDriverClass.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/Utilities/ConnectToJiraUserStory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/webApplicationTesting/webTestCases/WebTestBaseClass.java" />
+        <option value="$PROJECT_DIR$/log/AutomationPortalLog.2019-04-02.log" />
+        <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/src/test/java/mobileApplicationTesting/mobileTestScripts/MobileTestBaseClass.java" />
+        <option value="$PROJECT_DIR$/src/test/java/mobileApplicationTesting/mobileTestScripts/LaunchAppTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/Application.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/mobileApplicationTesting/mobileUtilityClasses/IPhoneSimulator_DesiredCapability.java" />
+        <option value="$PROJECT_DIR$/src/test/java/mobileApplicationTesting/mobileUtilityClasses/IPhoneSimulator_SouceLabDesiredCapability.java" />
+        <option value="$PROJECT_DIR$/Configurations/Env_Variables.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/Utilities/ReadExternalInputFilesData.java" />
       </list>
     </option>
   </component>
@@ -164,8 +193,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -173,17 +200,139 @@
               <item name="springbootproject" type="b2602c69:ProjectViewProjectNode" />
               <item name="springbootproject" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="springbootproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springbootproject" type="462c0819:PsiDirectoryNode" />
+              <item name="Configurations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springbootproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springbootproject" type="462c0819:PsiDirectoryNode" />
+              <item name="log" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springbootproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springbootproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springbootproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springbootproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springbootproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springbootproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springbootproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springbootproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springproject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springbootproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springbootproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springbootproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springbootproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springbootproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springbootproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springbootproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springbootproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mobileApplicationTesting" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springbootproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springbootproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mobileApplicationTesting" type="462c0819:PsiDirectoryNode" />
+              <item name="mobileTestScripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springbootproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springbootproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mobileApplicationTesting" type="462c0819:PsiDirectoryNode" />
+              <item name="mobileUtilityClasses" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springbootproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springbootproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Utilities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springbootproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springbootproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="webApplicationTesting" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springbootproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springbootproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="webApplicationTesting" type="462c0819:PsiDirectoryNode" />
+              <item name="webTestCases" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springbootproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springbootproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springbootproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springbootproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="TestData" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554131926136" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554281521138" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/RestAPITesting" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="last_opened_file_path" value="D:/Confidential project/Equinix/Selenium/SeleniumWithJava_SiebelFramework/SiebelAutomationFramework/pom.xml" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -203,11 +352,11 @@
       <recent name="testCases" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\GitHubProjects\springbootproject\Configurations" />
+      <recent name="C:\GitHubProjects\springbootproject\src\main\resources" />
       <recent name="C:\GitHubProjects\springbootproject\src\main\resources\static" />
       <recent name="C:\GitHubProjects\springbootproject\src\main\resources\static\img" />
       <recent name="C:\GitHubProjects\springbootproject\src\main\resources\static\js" />
-      <recent name="C:\GitHubProjects\springbootproject\src\main\resources\static\css" />
-      <recent name="C:\GitHubProjects\springbootproject\src\test" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -222,13 +371,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Application">
+  <component name="RunManager" selected="Application.ReadExternalInputFilesData">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.springproject.Application" />
       <module name="springbootproject" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.springproject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReadExternalInputFilesData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Utilities.ReadExternalInputFilesData" />
+      <module name="springbootproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Utilities.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -263,24 +425,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDriverClass.ReadExcelDriverAndRunScript (3)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="springbootproject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webApplicationTesting.webTestCases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webApplicationTesting.webTestCases" />
-      <option name="MAIN_CLASS_NAME" value="webApplicationTesting.webTestCases.TestDriverClass" />
-      <option name="METHOD_NAME" value="ReadExcelDriverAndRunScript" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestDriverClass.ReadExcelDriverAndRunScript" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="springbootproject" />
       <extension name="coverage">
@@ -301,11 +445,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReadExternalInputFilesData" />
         <item itemvalue="Application.Application" />
         <item itemvalue="TestNG.TestDriverClass.ReadExcelDriverAndRunScript" />
         <item itemvalue="TestNG.C:/GitHubProjects/springbootproject/TestNG_TestDriver.xml" />
         <item itemvalue="TestNG.StartAndStopAppiumServer" />
-        <item itemvalue="TestNG.TestDriverClass.ReadExcelDriverAndRunScript (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -376,7 +520,14 @@
       <option name="project" value="LOCAL" />
       <updated>1554092490068</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Script execution via Springboot configured and working">
+      <created>1554132101831</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1554132101832</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -413,8 +564,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24508321" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2602118" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -423,12 +575,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.26633987" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.41830066" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.37091503" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3529412" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32843137" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.4232026" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50075644" side_tool="true" weight="0.36764705" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32843137" />
@@ -454,7 +606,8 @@
     <MESSAGE value="Excel Common functions" />
     <MESSAGE value="HTML - UI Base Design Prepared" />
     <MESSAGE value="LogFactory log implemented with xml log configuration" />
-    <option name="LAST_COMMIT_MESSAGE" value="LogFactory log implemented with xml log configuration" />
+    <MESSAGE value="Script execution via Springboot configured and working" />
+    <option name="LAST_COMMIT_MESSAGE" value="Script execution via Springboot configured and working" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -469,58 +622,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/img/Manulife.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/img/manulife_logo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="75" column="15" selection-start-line="75" selection-start-column="15" selection-end-line="75" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76551">
-          <caret line="4503" column="8" selection-start-line="4503" selection-start-column="8" selection-end-line="4503" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.3.RELEASE/spring-web-5.1.3.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="101" selection-start-line="101" selection-end-line="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/tmp_code.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/test">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/javascript.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="28" column="74" selection-start-line="28" selection-start-column="74" selection-end-line="28" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HTML_Test_Results/Results 01-26-19 13-26-22/WebTestBaseClass.htm" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/io/File.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -630,25 +731,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springproject/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#241#242#0" expanded="true" />
-            <element signature="e#303#304#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/springproject/excelOperations/ExcelGenericFunctions.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="871">
@@ -666,16 +748,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springproject/controllers/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="41" column="58" lean-forward="true" selection-start-line="41" selection-start-column="58" selection-end-line="42" selection-end-column="84" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BatchRun.bat">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -683,24 +755,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="228" column="59" selection-start-line="228" selection-start-column="39" selection-end-line="228" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TestNG_TestDriver.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="71" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Configurations/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -715,16 +773,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
           <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/webApplicationTesting/webTestCases/WebTestBaseClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="34" column="29" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -751,20 +799,6 @@
     <entry file="file://$PROJECT_DIR$/log/archive/ExecutedTestSuiteDetails1.2019-04-01.log">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/log/AutomationPortalLog.2019-04-01.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="1089" column="66" lean-forward="true" selection-start-line="1089" selection-start-column="66" selection-end-line="1089" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="18" column="33" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Screenshots/ScreenShot_Test_1554130463346.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -788,27 +822,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/mobileApplicationTesting/mobileUtilityClasses/IPhoneSimulator_DesiredCapability.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="16" column="65" selection-start-line="16" selection-start-column="65" selection-end-line="16" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/ExcelReusableFunctions.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-459">
           <caret line="20" column="34" lean-forward="true" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/ConnectToJiraUserStory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -826,6 +843,163 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mobileApplicationTesting/mobileTestScripts/MobileTestDriverClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springproject/controllers/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/ConnectToJiraUserStory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#470#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="111" column="21" lean-forward="true" selection-start-line="111" selection-start-column="21" selection-end-line="111" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/archive/ExecutedTestSuiteDetails1.2019-04-02.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/AutomationPortalLog.2019-04-01.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="1089" column="66" lean-forward="true" selection-start-line="1089" selection-start-column="66" selection-end-line="1089" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/AutomationPortalLog.2019-04-02.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-612" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="77" selection-start-line="30" selection-start-column="77" selection-end-line="30" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springproject/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#241#242#0" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2720">
+          <caret line="160" column="91" selection-start-line="160" selection-start-column="91" selection-end-line="160" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mobileApplicationTesting/mobileUtilityClasses/IPhoneSimulator_SouceLabDesiredCapability.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="27" column="72" selection-start-line="27" selection-start-column="72" selection-end-line="27" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mobileApplicationTesting/mobileTestScripts/MobileTestBaseClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="20" column="34" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mobileApplicationTesting/mobileTestScripts/LaunchAppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/webApplicationTesting/webTestCases/WebTestBaseClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="31" column="36" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mobileApplicationTesting/mobileUtilityClasses/IPhoneSimulator_DesiredCapability.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/AutoEmailTriggerForJava.vbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="73" lean-forward="true" selection-start-column="73" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Configurations/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Configurations/Env_Variables.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/ReadExternalInputFilesData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

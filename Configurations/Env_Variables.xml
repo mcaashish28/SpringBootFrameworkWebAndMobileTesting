@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Environments>
+	<Environment id="E1">
+		<name>Env1</name>
+		<URL>SIT_URL</URL>
+	</Environment>
+	<Environment id="E2">
+		<name>Env2</name>
+		<URL>UAT_URL</URL>
+	</Environment>
+	<Environment id="E3">
+		<name>Env3</name>
+		<URL>PreProd_URL</URL>
+	</Environment>
+</Environments>

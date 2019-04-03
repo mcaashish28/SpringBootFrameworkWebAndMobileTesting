@@ -45,7 +45,7 @@ public class WebTestBaseClass {
     //@Parameters("getbrowser")      // take browser name from testng.xml file
     @BeforeSuite
     // public void setup(String browser)
-    public void setup() throws IOException, InterruptedException {
+    public void setupWebDriver() throws IOException, InterruptedException {
 
         try {
             HtmlReport.startTestCaseReport("WebTestBaseClass","Web Test Base Class Description");
@@ -98,6 +98,7 @@ public class WebTestBaseClass {
     @AfterSuite
     public void tearDown(){
         // driver.quit();
+        driver = null;
     }
 
 

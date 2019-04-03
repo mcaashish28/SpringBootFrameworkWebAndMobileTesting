@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="16088" started-at="2019-04-01T14:54:25Z" finished-at="2019-04-01T14:54:41Z">
+  <suite name="Command line suite" duration-ms="33060" started-at="2019-04-02T03:48:31Z" finished-at="2019-04-02T03:49:04Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="16088" started-at="2019-04-01T14:54:25Z" finished-at="2019-04-01T14:54:41Z">
+    <test name="Command line test" duration-ms="33060" started-at="2019-04-02T03:48:31Z" finished-at="2019-04-02T03:49:04Z">
       <class name="webApplicationTesting.webTestCases.ManulifeLaunchURLTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:webApplicationTesting.webTestCases.ManulifeLaunchURLTest@ba372c]" name="setup" is-config="true" duration-ms="11854" started-at="2019-04-01T14:54:13Z" finished-at="2019-04-01T14:54:25Z">
+        <test-method status="PASS" signature="setupWebDriver()[pri:0, instance:webApplicationTesting.webTestCases.ManulifeLaunchURLTest@ce957f]" name="setupWebDriver" is-config="true" duration-ms="6315" started-at="2019-04-02T03:48:25Z" finished-at="2019-04-02T03:48:31Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="LaunchManulifeURL()[pri:0, instance:webApplicationTesting.webTestCases.ManulifeLaunchURLTest@ba372c]" name="LaunchManulifeURL" duration-ms="16086" started-at="2019-04-01T14:54:25Z" finished-at="2019-04-01T14:54:41Z">
+        </test-method> <!-- setupWebDriver -->
+        <test-method status="PASS" signature="LaunchManulifeURL()[pri:0, instance:webApplicationTesting.webTestCases.ManulifeLaunchURLTest@ce957f]" name="LaunchManulifeURL" duration-ms="33058" started-at="2019-04-02T03:48:31Z" finished-at="2019-04-02T03:49:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchManulifeURL -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:webApplicationTesting.webTestCases.ManulifeLaunchURLTest@ba372c]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-04-01T14:54:41Z" finished-at="2019-04-01T14:54:41Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:webApplicationTesting.webTestCases.ManulifeLaunchURLTest@ce957f]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-04-02T03:49:04Z" finished-at="2019-04-02T03:49:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

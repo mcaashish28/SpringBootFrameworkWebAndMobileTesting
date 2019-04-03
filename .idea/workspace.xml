@@ -2,34 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50514fb2-f7da-4866-a1bb-2e8e705919c8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Configurations/Env_Variables.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Utilities/ReadExternalInputFilesData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/mobileApplicationTesting/mobileTestScripts/LaunchAppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/mobileApplicationTesting/mobileTestScripts/MobileTestBaseClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/mobileApplicationTesting/mobileTestScripts/MobileTestDriverClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/mobileApplicationTesting/mobileUtilityClasses/IPhoneSimulator_SouceLabDesiredCapability.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Configurations/sampleToRead.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestData/ExcelData/TestData.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestData/ExcelData/TestData.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Utilities/ConnectToJiraUserStory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utilities/ConnectToJiraUserStory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/mobileApplicationTesting/mobileUtilityClasses/IPhoneSimulator_DesiredCapability.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mobileApplicationTesting/mobileUtilityClasses/IPhoneSimulator_DesiredCapability.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/webApplicationTesting/webTestCases/WebTestBaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webApplicationTesting/webTestCases/WebTestBaseClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/springbootproject.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/springbootproject.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/webApplicationTesting/webTestCases/WebTestBaseClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/webApplicationTesting/webTestCases/WebTestBaseClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Command line suite/Command line test.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Command line suite/Command line test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Command line suite/Command line test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Command line suite/Command line test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-webApplicationTesting.webTestCases.GoogleLaunchURLTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-webApplicationTesting.webTestCases.GoogleLaunchURLTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-webApplicationTesting.webTestCases.ManulifeLaunchURLTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-webApplicationTesting.webTestCases.ManulifeLaunchURLTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Command line suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Command line suite/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Command line suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Command line suite/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Utilities/ReadExternalInputFilesData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utilities/ReadExternalInputFilesData.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -47,19 +23,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Configurations/config.properties">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Configurations/Env_Variables.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="13" />
+            <state relative-caret-position="213">
+              <caret line="112" selection-start-line="112" selection-end-line="112" />
             </state>
           </provider>
         </entry>
@@ -67,8 +34,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/ReadExternalInputFilesData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+            <state relative-caret-position="170">
+              <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,6 +68,7 @@
       <find>client</find>
       <find>java-client</find>
       <find>log</find>
+      <find>pdf</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -147,7 +115,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/springproject/controllers/Controller.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springproject/excelOperations/ReadAndWriteExcel.java" />
         <option value="$PROJECT_DIR$/src/test/java/webApplicationTesting/webTestCases/TestDriverClass.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/Utilities/ConnectToJiraUserStory.java" />
         <option value="$PROJECT_DIR$/src/test/java/webApplicationTesting/webTestCases/WebTestBaseClass.java" />
         <option value="$PROJECT_DIR$/log/AutomationPortalLog.2019-04-02.log" />
@@ -159,6 +126,7 @@
         <option value="$PROJECT_DIR$/src/test/java/mobileApplicationTesting/mobileUtilityClasses/IPhoneSimulator_DesiredCapability.java" />
         <option value="$PROJECT_DIR$/src/test/java/mobileApplicationTesting/mobileUtilityClasses/IPhoneSimulator_SouceLabDesiredCapability.java" />
         <option value="$PROJECT_DIR$/Configurations/Env_Variables.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/Utilities/ReadExternalInputFilesData.java" />
       </list>
     </option>
@@ -330,7 +298,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554281521138" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554283501893" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/RestAPITesting" />
     <property name="last_opened_file_path" value="D:/Confidential project/Equinix/Selenium/SeleniumWithJava_SiebelFramework/SiebelAutomationFramework/pom.xml" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -527,7 +495,14 @@
       <option name="project" value="LOCAL" />
       <updated>1554132101832</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Read Data from XML File - generic function">
+      <created>1554281697367</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1554281697368</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -566,7 +541,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2602118" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2602118" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -575,7 +550,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.37091503" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.37091503" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3529412" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -583,7 +558,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.4232026" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50075644" side_tool="true" weight="0.36764705" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32843137" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.5294118" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -600,6 +575,8 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.js" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Springbootframework for Web and Mobile Automation Testing" />
     <MESSAGE value="RestAPI Testing Code updated" />
     <MESSAGE value="Spring Boot Server Execution Code update and postGreSQL JDBC Connection class code" />
@@ -607,7 +584,8 @@
     <MESSAGE value="HTML - UI Base Design Prepared" />
     <MESSAGE value="LogFactory log implemented with xml log configuration" />
     <MESSAGE value="Script execution via Springboot configured and working" />
-    <option name="LAST_COMMIT_MESSAGE" value="Script execution via Springboot configured and working" />
+    <MESSAGE value="Read Data from XML File - generic function" />
+    <option name="LAST_COMMIT_MESSAGE" value="Read Data from XML File - generic function" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -622,21 +600,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/HTML_Test_Results/Results 01-26-19 13-26-22/WebTestBaseClass.htm" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/io/File.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1338" column="19" selection-start-line="1338" selection-start-column="19" selection-end-line="1338" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/Invoker.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="865" selection-start-line="865" selection-end-line="865" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/TestMethodWorker.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
@@ -870,13 +833,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="111" column="21" lean-forward="true" selection-start-line="111" selection-start-column="21" selection-end-line="111" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/log/archive/ExecutedTestSuiteDetails1.2019-04-02.log">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -899,13 +855,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/springproject/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -918,13 +867,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2720">
-          <caret line="160" column="91" selection-start-line="160" selection-start-column="91" selection-end-line="160" selection-end-column="91" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/mobileApplicationTesting/mobileUtilityClasses/IPhoneSimulator_SouceLabDesiredCapability.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -932,30 +874,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/mobileApplicationTesting/mobileTestScripts/MobileTestBaseClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="20" column="34" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/mobileApplicationTesting/mobileTestScripts/LaunchAppTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/webApplicationTesting/webTestCases/WebTestBaseClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="31" column="36" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -993,10 +915,80 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="74" column="16" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-output/old/Command line suite/methods-alphabetical.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="96" selection-start-column="96" selection-end-column="96" />
+          <folding>
+            <element signature="e#48#52#0" expanded="true" />
+            <element signature="e#52#56#0" expanded="true" />
+            <element signature="e#71#75#0" expanded="true" />
+            <element signature="e#75#79#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-output/old/Command line suite/methods.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="208" selection-start-column="208" selection-end-column="208" />
+          <folding>
+            <element signature="e#48#52#0" expanded="true" />
+            <element signature="e#52#56#0" expanded="true" />
+            <element signature="e#71#75#0" expanded="true" />
+            <element signature="e#75#79#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mobileApplicationTesting/mobileTestScripts/MobileTestBaseClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/webApplicationTesting/webTestCases/WebTestBaseClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="59" column="8" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-output/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="55" column="54" selection-start-line="55" selection-start-column="54" selection-end-line="55" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="112" selection-start-line="112" selection-end-line="112" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/ReadExternalInputFilesData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+        <state relative-caret-position="170">
+          <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

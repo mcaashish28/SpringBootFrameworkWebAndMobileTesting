@@ -2,6 +2,9 @@ package Utilities;
 
 import javax.xml.parsers.*;
 import javax.xml.xpath.*;
+
+import org.apache.pdfbox.pdmodel.PDDocument;
+import org.apache.pdfbox.text.PDFTextStripper;
 import org.w3c.dom.*;
 import java.io.File;
 
@@ -11,6 +14,7 @@ public class ReadExternalInputFilesData {
 
         ReadExternalInputFilesData readXMLFileData = new ReadExternalInputFilesData();
         ReadXMLFileData();
+        ReadPDFFileData();
 
     }
 
@@ -45,7 +49,30 @@ public class ReadExternalInputFilesData {
         } catch(Exception e){
             System.out.println("Exception in reading XML file : " + e.getMessage());
         }
-    }
+    }       // end of function - ReadXMLFileData
 
+
+    public static void ReadPDFFileData(){
+
+        try{
+            File pdfFile = new File("C:\\GitHubProjects\\springbootproject\\Configurations\\sampleToRead.pdf");
+            PDDocument pdDocument = PDDocument.load(pdfFile);
+            PDFTextStripper pdfTextStripper = new PDFTextStripper();
+
+            String text = pdfTextStripper.getText(pdDocument);
+            System.out.println("Print PDF Text : ");
+            System.out.println("#####################################################");
+
+            System.out.println(text);
+
+            System.out.println("#####################################################");
+
+            pdDocument.close();
+         }catch(Exception e){
+            System.out.println("Exception in reading PDF file : " + e.getMessage());
+        }
+
+
+    }       // end of function - ReadPDFFileData
 
 }

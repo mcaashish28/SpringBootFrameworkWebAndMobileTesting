@@ -1,4 +1,5 @@
 package webApplicationTesting;
 
-public class test {
+public class test{
+
 }

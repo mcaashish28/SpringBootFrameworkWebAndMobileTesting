@@ -2,13 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50514fb2-f7da-4866-a1bb-2e8e705919c8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springproject/controllers/SendEmail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springproject/services/EmailNotification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springproject/services/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Utilities/ReadAndWriteJSONfile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/webApplicationTesting/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webApplicationTesting/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestData/ExcelData/TestData.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestData/ExcelData/TestData.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Command line suite/Command line test.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Command line suite/Command line test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Command line suite/Command line test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Command line suite/Command line test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-webApplicationTesting.webTestCases.GoogleLaunchURLTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-webApplicationTesting.webTestCases.GoogleLaunchURLTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-webApplicationTesting.webTestCases.ManulifeLaunchURLTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-webApplicationTesting.webTestCases.ManulifeLaunchURLTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Command line suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Command line suite/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Command line suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Command line suite/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Command line suite/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Command line suite/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,19 +36,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="62" column="21" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
+            <state relative-caret-position="256">
+              <caret line="46" column="18" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/Application.properties">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+            <state relative-caret-position="417">
+              <caret line="131" column="21" selection-start-line="131" selection-start-column="21" selection-end-line="131" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/ReadAndWriteJSONfile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="36" column="39" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -46,65 +68,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/springproject/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+            <state relative-caret-position="102">
+              <caret line="8" column="41" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#241#242#0" expanded="true" />
                 <element signature="e#303#304#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/springproject/controllers/Controller.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-85">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/springproject/controllers/SendEmail.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#266#267#0" expanded="true" />
-                <element signature="e#329#330#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/springproject/services/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="31" column="24" lean-forward="true" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
-              <folding>
-                <element signature="e#527#528#0" expanded="true" />
-                <element signature="e#562#563#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/springproject/services/EmailNotification.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="30" column="42" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#407#408#0" expanded="true" />
-                <element signature="e#459#460#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -136,6 +105,7 @@
       <find>java-client</find>
       <find>log</find>
       <find>pdf</find>
+      <find>json</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -144,7 +114,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/RestAPITesting/oauth/OAuthConstants.java" />
         <option value="$PROJECT_DIR$/src/test/java/RestAPITesting/API_Utils.java" />
         <option value="$PROJECT_DIR$/src/test/java/RestAPITesting/RestAPIFunctions.java" />
         <option value="$PROJECT_DIR$/src/test/java/RestAPITesting/oauth/OAuth2Client" />
@@ -181,7 +150,6 @@
         <option value="$PROJECT_DIR$/src/test/java/webApplicationTesting/webTestCases/WebTestBaseClass.java" />
         <option value="$PROJECT_DIR$/log/AutomationPortalLog.2019-04-02.log" />
         <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
         <option value="$PROJECT_DIR$/src/test/java/mobileApplicationTesting/mobileTestScripts/MobileTestBaseClass.java" />
         <option value="$PROJECT_DIR$/src/test/java/mobileApplicationTesting/mobileTestScripts/LaunchAppTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/mobileApplicationTesting/mobileUtilityClasses/IPhoneSimulator_DesiredCapability.java" />
@@ -190,11 +158,13 @@
         <option value="$PROJECT_DIR$/src/test/java/Utilities/ReadExternalInputFilesData.java" />
         <option value="$PROJECT_DIR$/src/test/java/Utilities/SendEmail.java" />
         <option value="$PROJECT_DIR$/src/test/java/webApplicationTesting/test.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/springproject/services/User.java" />
         <option value="$PROJECT_DIR$/src/main/resources/Application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/springproject/controllers/SendEmail.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springproject/services/EmailNotification.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/Utilities/ReadAndWriteJSONfile.java" />
       </list>
     </option>
   </component>
@@ -228,7 +198,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -296,6 +265,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springbootproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springbootproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springbootproject" type="b2602c69:ProjectViewProjectNode" />
@@ -378,12 +355,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554350325486" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554458757419" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/RestAPITesting" />
     <property name="last_opened_file_path" value="D:/Confidential project/Equinix/Selenium/SeleniumWithJava_SiebelFramework/SiebelAutomationFramework/pom.xml" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -424,13 +402,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Application">
+  <component name="RunManager" selected="Application.ReadAndWriteJSONfile">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.springproject.Application" />
       <module name="springbootproject" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.springproject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReadAndWriteJSONfile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Utilities.ReadAndWriteJSONfile" />
+      <module name="springbootproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Utilities.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -464,16 +455,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/GitHubProjects/springbootproject/TestNG_TestDriver.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="springbootproject" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/TestNG_TestDriver.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestDriverClass.ReadExcelDriverAndRunScript" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="springbootproject" />
       <extension name="coverage">
@@ -494,11 +475,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReadAndWriteJSONfile" />
         <item itemvalue="Application.Application" />
         <item itemvalue="Application.test" />
         <item itemvalue="Application.ReadExternalInputFilesData" />
         <item itemvalue="TestNG.TestDriverClass.ReadExcelDriverAndRunScript" />
-        <item itemvalue="TestNG.C:/GitHubProjects/springbootproject/TestNG_TestDriver.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -597,7 +578,14 @@
       <option name="project" value="LOCAL" />
       <updated>1554342533699</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Send Email in Spring Boot Framework - working">
+      <created>1554350386361</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1554350386361</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -636,7 +624,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26399395" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2677761" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -645,7 +633,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848714" visible="true" weight="0.37091503" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848714" weight="0.37091503" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3529412" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -682,7 +670,8 @@
     <MESSAGE value="Read Data from XML File - generic function" />
     <MESSAGE value="Read PDF File text with PDFBox API" />
     <MESSAGE value="send email code - but not working" />
-    <option name="LAST_COMMIT_MESSAGE" value="send email code - but not working" />
+    <MESSAGE value="Send Email in Spring Boot Framework - working" />
+    <option name="LAST_COMMIT_MESSAGE" value="Send Email in Spring Boot Framework - working" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -697,7 +686,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Screenshots/ScreenShot_Test_1554108938176.png" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/MethodInvocationHelper.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
@@ -945,13 +933,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="74" column="16" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test-output/old/Command line suite/methods-alphabetical.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1005,49 +986,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="62" column="21" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springproject/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#241#242#0" expanded="true" />
-            <element signature="e#303#304#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springproject/controllers/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-85">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/SendEmail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#945#1147#0" expanded="true" />
-            <element signature="e#1146#1147#0" expanded="true" />
-            <element signature="e#2703#2904#0" expanded="true" />
-            <element signature="e#2903#2904#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/webApplicationTesting/test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1065,21 +1003,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Application.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springproject/services/EmailNotification.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springproject/controllers/SendEmail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+        <state relative-caret-position="351">
+          <caret line="30" column="42" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#266#267#0" expanded="true" />
-            <element signature="e#329#330#0" expanded="true" />
+            <element signature="e#407#408#0" expanded="true" />
+            <element signature="e#459#460#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1095,14 +1026,77 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springproject/services/EmailNotification.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springproject/controllers/SendEmail.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="30" column="42" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
+        <state relative-caret-position="102">
+          <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#407#408#0" expanded="true" />
-            <element signature="e#459#460#0" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#329#330#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springproject/controllers/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-85">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/SendEmail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1207">
+          <caret line="35" column="56" lean-forward="true" selection-start-line="35" selection-start-column="56" selection-end-line="35" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="46" column="18" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springproject/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="41" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#241#242#0" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="131" column="21" selection-start-line="131" selection-start-column="21" selection-end-line="131" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/ReadAndWriteJSONfile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="36" column="39" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

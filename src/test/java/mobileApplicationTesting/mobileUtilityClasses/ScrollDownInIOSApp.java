@@ -40,12 +40,12 @@ public class ScrollDownInIOSApp {
 
         /* --
         Dimension size = driver.manage().window().getSize();
-        TouchAction touch = new TouchAction(driver);
         int x = size.getWidth() / 2;
         int starty = (int) (size.getHeight() * 0.60);
         int endy = (int) (size.getHeight() * 0.10);
-        touch.press(x, starty). waitAction(2000).moveTo(x,endy).release().perform();
-        //driver.swipe(x, starty, endy, 2000);
+        driver.swipe(x, starty, x, endy, 2000);
+        // click on visible object
+        driver.findElementByAccessibilityId("NameofObject").click();
         */
 
         // Generic Code to sroll down in IOS App. Just copy paste at desired location this piece of code - end

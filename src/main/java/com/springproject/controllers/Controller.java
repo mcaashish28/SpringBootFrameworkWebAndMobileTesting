@@ -22,12 +22,31 @@ public class Controller {
 
 
 
-    @RequestMapping(value="/", method= RequestMethod.GET)
+    @RequestMapping(value={"/"}, method= RequestMethod.GET)
     public String homePage(){
         logger.info("Launching Home page....");
         return "index";
     }
-    @RequestMapping(value="/", method=RequestMethod.POST)
+
+    @RequestMapping(value="/mobileapptest", method= RequestMethod.GET)
+    public String mobileapptest(){
+        logger.info("Launching Mobile App Test Page....");
+        return "mobileapptest";
+    }
+
+    @RequestMapping(value="/webapptest", method= RequestMethod.GET)
+    public String webapptest(){
+        logger.info("Launching Web App Test Page....");
+        return "webapptest";
+    }
+
+    @RequestMapping(value="/kpi", method= RequestMethod.GET)
+    public String kpi(){
+        logger.info("Launching kpi Page....");
+        return "kpi";
+    }
+
+    @RequestMapping(value="/mobileapptest", method=RequestMethod.POST)
     public String onSubmit(@RequestParam String testcase1, @RequestParam String testcase2) throws IOException {
         logger.info("User selected value is : " + testcase1);
         logger.info("User selected value is : " + testcase2);

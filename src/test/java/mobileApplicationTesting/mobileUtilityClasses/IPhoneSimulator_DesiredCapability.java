@@ -17,7 +17,7 @@ public class IPhoneSimulator_DesiredCapability {
         dc.setCapability(MobileCapabilityType.DEVICE_NAME, "iPhone 6");     // imp
         dc.setCapability(MobileCapabilityType.PLATFORM_NAME, "IOS");        // imp for mac os
         // for IOS version > 10.2
-        dc.setCapability(MobileCapabilityType.AUTOMATION_NAME, AutomationName.IOS_XCUI_TEST); // imp
+        dc.setCapability(MobileCapabilityType.AUTOMATION_NAME, AutomationName.IOS_XCUI_TEST); // imp 'XCUITest'
         dc.setCapability(MobileCapabilityType.APP, "//PathtoAppFolder//MobileApp.app"); // imp
 
         IOSDriver<IOSElement> driver = new IOSDriver<>(new URL("http://127.0.0.1:4723/wd/hub"), dc);  // appium server url

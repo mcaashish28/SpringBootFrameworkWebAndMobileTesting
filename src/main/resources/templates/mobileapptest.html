@@ -1,0 +1,117 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
+<head>
+    <title>Welcome to Manulife Automation Portal</title>
+    <!--<link rel="shortcut icon" href="{%  static 'manulife.ico' %}">-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/custom.css">
+    <script src="js/javascript.js"></script>
+</head>
+<body>
+<form method="post">
+    <nav class="navbar navbar-expand-sm bg-light justify-content-center">
+        <div class="spinner-grow text-muted"></div>
+        <div class="spinner-grow text-primary"></div>
+        <div class="spinner-grow text-success"></div>
+        <div class="spinner-grow text-info"></div>
+        <!--<img class="navbar-brand" src="img/manulife_logo.png" style="width:100px;">-->
+        <font color="Green">
+            <h2>Manulife - Hybrid Automation Test Portal</h2>
+        </font>
+        <div class="spinner-grow text-warning"></div>
+        <div class="spinner-grow text-danger"></div>
+        <div class="spinner-grow text-secondary"></div>
+        <div class="spinner-grow text-dark"></div>
+        <div class="spinner-grow text-light"></div>
+    </nav>
+    <br>
+    <div class="container">
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <a class="nav-link" href="/">About Portal</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="mobileapptest">Mobile App Testing</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+        </ul>
+        <div class="container">
+            <br>
+            <h4>Mobile Application Testing</h4>
+            <p></p>
+            <table class="table table-bordered table-hover table-striped table-sm" cellpadding="5">
+                <thead class="thead-dark">
+                <tr>
+                    <th>Sr.No.</th>
+                    <th>Test Script Name</th>
+                    <th>Host Name</th>
+                    <th>Status</th>
+                    <th>Add/Delete</th>
+                </tr>
+                </thead>
+                <tr>
+                    <td>1</td>
+                    <td>
+                        <div class="form-group">
+                            <select class="form-control" id="testcase1" name="testcase1"  style="background-color:white;">
+                                <option value="GoogleLaunchURLTest">Launch Google URL</option>
+                                <option value="TS2">Test Script 2</option>
+                                <option value="TS3">Test Script 3</option>
+                                <option value="TS4">Test Script 4</option>
+                            </select>
+                        </div>
+                    </td>
+                    <td>Host Name1</td>
+                    <td>Yet To Run</td>
+                    <td>
+                        <button type="button" class="btn btn-success btn-sm">Add</button>
+                        <button type="button" class="btn btn-danger btn-sm">Delete</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>
+                        <div class="form-group">
+                            <select class="form-control" id="testcase2" name="testcase2" style="background-color:white;">
+                                <option value="ManulifeLaunchURLTest">Launch Manulife URL</option>
+                                <option value="TS2">Test Script 2</option>
+                                <option value="TS3">Test Script 3</option>
+                                <option value="TS4">Test Script 4</option>
+                            </select>
+                        </div>
+                    </td>
+                    <td>Host Name1</td>
+                    <td>Yet To Run</td>
+                    <td>
+                        <button type="button" class="btn btn-success btn-sm">Add</button>
+                        <button type="button" class="btn btn-danger btn-sm">Delete</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="container">
+            <input type="submit" id="submit" name="submit" class="btn btn-primary"></input>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Copyright
+            <a href="https://www.manulife.com/">Manulife.com</a> 2019
+        </p>
+    </div>
+</form>
+</body>
+</html>

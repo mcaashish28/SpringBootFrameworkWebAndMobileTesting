@@ -2,11 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50514fb2-f7da-4866-a1bb-2e8e705919c8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Utilities/ReadAndWriteJSONfile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/kpi.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/mobileapptest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/webapptest.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TestData/ExcelData/TestData.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestData/ExcelData/TestData.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springproject/controllers/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springproject/controllers/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/manulife.ico" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mobileApplicationTesting/mobileUtilityClasses/IPhoneSimulator_DesiredCapability.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mobileApplicationTesting/mobileUtilityClasses/IPhoneSimulator_DesiredCapability.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mobileApplicationTesting/mobileUtilityClasses/ScrollDownInIOSApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mobileApplicationTesting/mobileUtilityClasses/ScrollDownInIOSApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springproject/controllers/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springproject/controllers/Controller.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/Command line suite/Command line test.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Command line suite/Command line test.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/Command line suite/Command line test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Command line suite/Command line test.xml" afterDir="false" />
@@ -38,28 +45,76 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="46" column="18" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
+            <state relative-caret-position="136">
+              <caret line="8" selection-start-line="8" selection-end-line="9" selection-end-column="64" />
+              <folding>
+                <element signature="e#3147#3153#0" expanded="true" />
+                <element signature="e#3348#3354#0" expanded="true" />
+                <element signature="e#3496#3502#0" expanded="true" />
+                <element signature="e#3640#3646#0" expanded="true" />
+                <element signature="e#3809#3815#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index_old.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-51">
+              <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/post.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="131" column="21" selection-start-line="131" selection-start-column="21" selection-end-line="131" selection-end-column="21" />
+            <state relative-caret-position="289">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/ReadAndWriteJSONfile.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/mobileapptest.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="36" column="39" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
+            <state relative-caret-position="119">
+              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="n#style#0;n#select#0;n#div#0;n#td#1;n#tr#0;n#table#0;n#div#0;n#div#0;n#form#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#select#0;n#div#0;n#td#1;n#tr#1;n#table#0;n#div#0;n#div#0;n#form#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/webapptest.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="53" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
+              <folding>
+                <element signature="n#style#0;n#select#0;n#div#0;n#td#1;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#form#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#select#0;n#div#0;n#td#1;n#tr#1;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#form#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/kpi.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+              <folding>
+                <element signature="n#style#0;n#select#0;n#div#0;n#td#1;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#form#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#select#0;n#div#0;n#td#1;n#tr#1;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#form#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -68,12 +123,24 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/springproject/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="8" column="41" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="41" />
+            <state relative-caret-position="153">
+              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#241#242#0" expanded="true" />
                 <element signature="e#303#304#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/springproject/controllers/Controller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="61" column="81" selection-start-line="61" selection-start-column="73" selection-end-line="61" selection-end-column="81" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -114,11 +181,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/RestAPITesting/API_Utils.java" />
-        <option value="$PROJECT_DIR$/src/test/java/RestAPITesting/RestAPIFunctions.java" />
-        <option value="$PROJECT_DIR$/src/test/java/RestAPITesting/oauth/OAuth2Client" />
-        <option value="$PROJECT_DIR$/src/test/java/RestAPITesting/oauth/Base64Encoded.java" />
-        <option value="$PROJECT_DIR$/src/test/java/RestAPITesting/oauth/Oauth2Client.config" />
         <option value="$PROJECT_DIR$/src/test/java/RestAPITesting/oauth/OAuth2Details.java" />
         <option value="$PROJECT_DIR$/src/test/java/RestAPITesting/oauth/WebClientDevWrapper.java" />
         <option value="$PROJECT_DIR$/src/test/java/RestAPITesting/oauth/OAuth2Client.java" />
@@ -129,7 +191,6 @@
         <option value="$PROJECT_DIR$/src/test/java/Utilities/ExcelReusableFunctions.java" />
         <option value="$PROJECT_DIR$/src/test/java/mobileApplicationTesting/desiredCapabilityFormats/iOSDesiredCapability/IPhoneSimulator.java" />
         <option value="$PROJECT_DIR$/src/test/java/mobileApplicationTesting/mobileUtilityClasses/StartAndStopAppiumServer.java" />
-        <option value="$PROJECT_DIR$/src/test/java/mobileApplicationTesting/mobileUtilityClasses/ScrollDownInIOSApp.java" />
         <option value="$PROJECT_DIR$/src/test/java/webApplicationTesting/webTestCases/ManulifeLaunchURLTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/resources/log4j.xml" />
         <option value="$PROJECT_DIR$/log4j.properties" />
@@ -143,7 +204,6 @@
         <option value="$PROJECT_DIR$/src/test/java/Utilities/HtmlReport.java" />
         <option value="$PROJECT_DIR$/src/test/java/webApplicationTesting/pageObjectModel/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/HomePage.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springproject/controllers/Controller.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springproject/excelOperations/ReadAndWriteExcel.java" />
         <option value="$PROJECT_DIR$/src/test/java/webApplicationTesting/webTestCases/TestDriverClass.java" />
         <option value="$PROJECT_DIR$/src/test/java/Utilities/ConnectToJiraUserStory.java" />
@@ -152,7 +212,6 @@
         <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
         <option value="$PROJECT_DIR$/src/test/java/mobileApplicationTesting/mobileTestScripts/MobileTestBaseClass.java" />
         <option value="$PROJECT_DIR$/src/test/java/mobileApplicationTesting/mobileTestScripts/LaunchAppTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/mobileApplicationTesting/mobileUtilityClasses/IPhoneSimulator_DesiredCapability.java" />
         <option value="$PROJECT_DIR$/src/test/java/mobileApplicationTesting/mobileUtilityClasses/IPhoneSimulator_SouceLabDesiredCapability.java" />
         <option value="$PROJECT_DIR$/Configurations/Env_Variables.xml" />
         <option value="$PROJECT_DIR$/src/test/java/Utilities/ReadExternalInputFilesData.java" />
@@ -162,9 +221,17 @@
         <option value="$PROJECT_DIR$/src/main/resources/Application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/springproject/controllers/SendEmail.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springproject/services/EmailNotification.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/Utilities/ReadAndWriteJSONfile.java" />
+        <option value="$PROJECT_DIR$/src/test/java/mobileApplicationTesting/mobileUtilityClasses/IPhoneSimulator_DesiredCapability.java" />
+        <option value="$PROJECT_DIR$/src/test/java/mobileApplicationTesting/mobileUtilityClasses/ScrollDownInIOSApp.java" />
+        <option value="$PROJECT_DIR$/src/test/java/mobileApplicationTesting/mobileUtilityClasses/IPhoneReadDevice_DesiredCapability.java" />
+        <option value="$PROJECT_DIR$/src/test/java/mobileApplicationTesting/mobileUtilityClasses/IPhoneRealDevice_DesiredCapability.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/webapptest.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/kpi.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springproject/controllers/Controller.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/mobileapptest.html" />
       </list>
     </option>
   </component>
@@ -198,6 +265,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -238,26 +306,7 @@
               <item name="springbootproject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springproject" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springbootproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springbootproject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springproject" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springbootproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springbootproject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springproject" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springbootproject" type="b2602c69:ProjectViewProjectNode" />
@@ -265,6 +314,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springbootproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springbootproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springbootproject" type="b2602c69:ProjectViewProjectNode" />
@@ -278,90 +337,18 @@
               <item name="springbootproject" type="b2602c69:ProjectViewProjectNode" />
               <item name="springbootproject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springbootproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springbootproject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springbootproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springbootproject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mobileApplicationTesting" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springbootproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springbootproject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mobileApplicationTesting" type="462c0819:PsiDirectoryNode" />
-              <item name="mobileTestScripts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springbootproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springbootproject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mobileApplicationTesting" type="462c0819:PsiDirectoryNode" />
-              <item name="mobileUtilityClasses" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springbootproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springbootproject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Utilities" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springbootproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springbootproject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="webApplicationTesting" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springbootproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springbootproject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="webApplicationTesting" type="462c0819:PsiDirectoryNode" />
-              <item name="webTestCases" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springbootproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springbootproject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springbootproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springbootproject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="TestData" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554458757419" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554565843624" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/RestAPITesting" />
     <property name="last_opened_file_path" value="D:/Confidential project/Equinix/Selenium/SeleniumWithJava_SiebelFramework/SiebelAutomationFramework/pom.xml" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -370,10 +357,11 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\GitHubProjects\springbootproject\src\test\resources" />
-      <recent name="C:\GitHubProjects\springbootproject\src\test\java\resources" />
-      <recent name="C:\GitHubProjects\springbootproject\src\test\java\RestAPITesting\oauh" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\GitHubProjects\springbootproject\src\main\resources\static\img" />
+      <recent name="C:\GitHubProjects\springbootproject\src\main\resources\static" />
+      <recent name="C:\GitHubProjects\springbootproject\src\main\resources\templates" />
+      <recent name="C:\GitHubProjects\springbootproject\Configurations" />
       <recent name="C:\GitHubProjects\springbootproject\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -382,12 +370,11 @@
       <recent name="webApplicationTesting.webTestCases" />
       <recent name="testCases" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\GitHubProjects\springbootproject\Configurations" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\GitHubProjects\springbootproject\src\test\resources" />
+      <recent name="C:\GitHubProjects\springbootproject\src\test\java\resources" />
+      <recent name="C:\GitHubProjects\springbootproject\src\test\java\RestAPITesting\oauh" />
       <recent name="C:\GitHubProjects\springbootproject\src\main\resources" />
-      <recent name="C:\GitHubProjects\springbootproject\src\main\resources\static" />
-      <recent name="C:\GitHubProjects\springbootproject\src\main\resources\static\img" />
-      <recent name="C:\GitHubProjects\springbootproject\src\main\resources\static\js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -402,7 +389,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReadAndWriteJSONfile">
+  <component name="RunManager" selected="Application.Application">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.springproject.Application" />
       <module name="springbootproject" />
@@ -475,8 +462,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ReadAndWriteJSONfile" />
         <item itemvalue="Application.Application" />
+        <item itemvalue="Application.ReadAndWriteJSONfile" />
         <item itemvalue="Application.test" />
         <item itemvalue="Application.ReadExternalInputFilesData" />
         <item itemvalue="TestNG.TestDriverClass.ReadExcelDriverAndRunScript" />
@@ -624,7 +611,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2677761" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16490166" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -633,7 +620,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848714" weight="0.37091503" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848714" visible="true" weight="0.33333334" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3529412" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -652,6 +639,35 @@
       <window_info anchor="right" id="Coverage" order="7" side_tool="true" weight="0.32980332" />
       <window_info anchor="right" id="Maven" order="8" weight="0.32980332" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.31164902" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49848714" visible="true" weight="0.33333334" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3529412" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.4232026" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5015129" side_tool="true" weight="0.37091503" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.5294118" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Coverage" order="7" side_tool="true" weight="0.32980332" />
+      <window_info anchor="right" id="Maven" order="8" weight="0.32980332" />
+    </layout-to-restore>
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
@@ -686,74 +702,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/MethodInvocationHelper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="112" column="55" selection-start-line="112" selection-start-column="55" selection-end-line="112" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Screenshots/ScreenShot_Test_1554109188247.png" />
-    <entry file="file://$PROJECT_DIR$/Screenshots/ScreenShot_Test_1554109558911.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/HtmlReport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1632">
-          <caret line="612" column="4" selection-start-line="612" selection-start-column="4" selection-end-line="612" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/webApplicationTesting/pageObjectModel/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#255#256#0" expanded="true" />
-            <element signature="e#302#303#0" expanded="true" />
-            <element signature="e#579#580#0" expanded="true" />
-            <element signature="e#610#611#0" expanded="true" />
-            <element signature="e#662#663#0" expanded="true" />
-            <element signature="e#702#703#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/post.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index_old.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="34" column="27" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springproject/excelOperations/ExcelGenericFunctions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="871">
-          <caret line="64" column="75" lean-forward="true" selection-start-line="64" selection-start-column="63" selection-end-line="64" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springproject/excelOperations/ReadAndWriteExcel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="57" column="44" lean-forward="true" selection-start-line="57" selection-start-column="44" selection-end-line="57" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BatchRun.bat">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -785,16 +733,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/webApplicationTesting/webTestCases/TestDriverClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="67" column="33" selection-start-line="67" selection-start-column="31" selection-end-line="67" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/webApplicationTesting/webTestCases/ManulifeLaunchURLTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -812,16 +750,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="25" column="30" lean-forward="true" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/mobileApplicationTesting/mobileUtilityClasses/ScrollDownInIOSApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -849,13 +777,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/mobileApplicationTesting/mobileTestScripts/MobileTestDriverClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -888,33 +809,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="30" column="77" selection-start-line="30" selection-start-column="77" selection-end-line="30" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/mobileApplicationTesting/mobileUtilityClasses/IPhoneSimulator_SouceLabDesiredCapability.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="27" column="72" selection-start-line="27" selection-start-column="72" selection-end-line="27" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/mobileApplicationTesting/mobileTestScripts/LaunchAppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/mobileApplicationTesting/mobileUtilityClasses/IPhoneSimulator_DesiredCapability.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -955,16 +849,6 @@
             <element signature="e#52#56#0" expanded="true" />
             <element signature="e#71#75#0" expanded="true" />
             <element signature="e#75#79#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/mobileApplicationTesting/mobileTestScripts/MobileTestBaseClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1038,10 +922,94 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springproject/controllers/Controller.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/SendEmail.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-85">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="-1207">
+          <caret line="35" column="56" lean-forward="true" selection-start-line="35" selection-start-column="56" selection-end-line="35" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/ReadAndWriteJSONfile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="36" column="39" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mobileApplicationTesting/mobileTestScripts/LaunchAppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="52" lean-forward="true" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mobileApplicationTesting/mobileTestScripts/MobileTestBaseClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mobileApplicationTesting/mobileTestScripts/MobileTestDriverClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/webApplicationTesting/webTestCases/TestDriverClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1016">
+          <caret line="72" column="41" selection-start-line="72" selection-start-column="41" selection-end-line="72" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mobileApplicationTesting/mobileUtilityClasses/IPhoneSimulator_SouceLabDesiredCapability.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="13" selection-start-line="13" selection-end-line="28" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mobileApplicationTesting/mobileUtilityClasses/ScrollDownInIOSApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="41" column="50" lean-forward="true" selection-start-line="41" selection-start-column="50" selection-end-line="41" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mobileApplicationTesting/mobileUtilityClasses/IPhoneSimulator_DesiredCapability.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mobileApplicationTesting/mobileUtilityClasses/IPhoneRealDevice_DesiredCapability.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="46" column="37" lean-forward="true" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1055,27 +1023,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/SendEmail.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springproject/controllers/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1207">
-          <caret line="35" column="56" lean-forward="true" selection-start-line="35" selection-start-column="56" selection-end-line="35" selection-end-column="56" />
+        <state relative-caret-position="187">
+          <caret line="61" column="81" selection-start-line="61" selection-start-column="73" selection-end-line="61" selection-end-column="81" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="46" column="18" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
+        <state relative-caret-position="289">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/springproject/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="41" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="41" />
+        <state relative-caret-position="153">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#241#242#0" expanded="true" />
@@ -1084,19 +1052,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/img/manulife_logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/manulife.ico">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/favicon.ico">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/webapptest.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="131" column="21" selection-start-line="131" selection-start-column="21" selection-end-line="131" selection-end-column="21" />
+        <state relative-caret-position="340">
+          <caret line="20" column="53" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
+          <folding>
+            <element signature="n#style#0;n#select#0;n#div#0;n#td#1;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#form#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#select#0;n#div#0;n#td#1;n#tr#1;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#form#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/ReadAndWriteJSONfile.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/kpi.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="36" column="39" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
+        <state relative-caret-position="510">
+          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="n#style#0;n#select#0;n#div#0;n#td#1;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#form#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#select#0;n#div#0;n#td#1;n#tr#1;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#form#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index_old.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/post.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="9" selection-end-column="64" />
+          <folding>
+            <element signature="e#3147#3153#0" expanded="true" />
+            <element signature="e#3348#3354#0" expanded="true" />
+            <element signature="e#3496#3502#0" expanded="true" />
+            <element signature="e#3640#3646#0" expanded="true" />
+            <element signature="e#3809#3815#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/mobileapptest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+          <folding>
+            <element signature="n#style#0;n#select#0;n#div#0;n#td#1;n#tr#0;n#table#0;n#div#0;n#div#0;n#form#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#select#0;n#div#0;n#td#1;n#tr#1;n#table#0;n#div#0;n#div#0;n#form#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
